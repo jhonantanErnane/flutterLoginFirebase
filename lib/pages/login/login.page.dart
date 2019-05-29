@@ -12,7 +12,7 @@ class LoginPage extends StatelessWidget {
           children: <Widget>[
             RaisedButton(
               onPressed: () {
-                Navigator.of(context).pushReplacementNamed('/hhg');
+                Navigator.of(context).pushReplacementNamed('/');
               },
               child: Text('login Facebook'),
             ),
